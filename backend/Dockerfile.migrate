@@ -1,0 +1,7 @@
+FROM arigaio/atlas:latest
+
+WORKDIR /migrations
+
+COPY internal/ent/migrate/migrations /migrations
+
+ENTRYPOINT ["atlas"]
