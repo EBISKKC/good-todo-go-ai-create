@@ -1,0 +1,6 @@
+package: api
+output: internal/presentation/public/api/api.go
+generate:
+  echo-server: true
+  models: true
+  strict-server: false
